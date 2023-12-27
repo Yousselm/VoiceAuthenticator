@@ -5,16 +5,13 @@ with open("requirements.txt") as f:
     content = f.readlines()
 requirements = [x.strip() for x in content if "git+" not in x]
 
-setup(name='deep_fake_voice_recognition',
+setup(name='VoiceAuthenticator',
       version="0.0.1",
-      description="Deep fake voice prediction",
+      description="VoiceAuthenticator",
       license="MIT",
-      author="Elise Arnal",
-      author_email="elise.arnal1@gmail.com",
-      #url="https://github.com/lewagon/taxi-fare",
+      author="Youssef Elm",
+      author_email="youssef.elmaaoua@gmail.com",
       install_requires=requirements,
       packages=find_packages(),
-    #   test_suite="tests",
-      # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
       zip_safe=False)
