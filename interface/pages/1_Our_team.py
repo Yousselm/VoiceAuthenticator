@@ -31,4 +31,4 @@ columns_0[0].markdown(
     """
 )
 
-columns_0[1].image("images/IMG_5326.jpg")
+columns_0[1].image("./interface/images/IMG_5326.jpg")

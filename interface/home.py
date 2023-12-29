@@ -20,7 +20,7 @@ st.set_page_config(
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
-with open('./files/wave.css') as f:
+with open('./interface/files/wave.css') as f:
     css = f.read()
 
 
