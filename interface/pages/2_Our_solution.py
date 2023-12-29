@@ -77,7 +77,7 @@ with tabs_[0]:
                                                     'mfcc12', 'mfcc13', 'mfcc14', 'mfcc15', 'mfcc16',
                                                     'mfcc17', 'mfcc18','mfcc19', 'mfcc20'])
                     st.write("Loading model..")
-                    model = joblib.load('model/last_XGB')
+                    model = joblib.load('interface/model/last_XGB')
                     st.write("initializing figure..")
                     shap.initjs();
                     explainer = shap.Explainer(model)
